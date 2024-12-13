@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { saveTokenToSessionStorage } from './SessionStorageManager.tsx'; // Correct import
+import { saveTokenToSessionStorage } from './SessionStorageManager.tsx';
 
 const Login: React.FC = () => {
   const navigate = useNavigate();
